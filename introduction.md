@@ -32,4 +32,8 @@
 - in kubernetes, a Pod is the smallest and simplest unit in the Kubernetes object model. It represents a single instance of a running process in  your cluster. A Pod can run one or more containers, usually Docker containers. These containers are tightly coupled and share the same network namespace and storage volumes.
 - Pods can specify volumes that containers can use to persist data, and they share the same IP address and port space, allowing communication between containers easily. 
 - Pods are designed to be ephemeral. If a Pod dies, Kubernetes replaces it automatically by creating a new instance, however the new Pod will have a different IP address and identity.
+
+### What is Service and ingress in Kubernetes ?
+- It has a permanent IP address. Lifecycle of Pod and Service Not connected means if a Pod dies, the service will remain same or unchange.
+- In Kubernetes, Ingress is an API object that manages external access to services within a cluster, typically HTTP and HTTPS. It acts as a smart routing system, allowing you to expose your Kubernetes services to the outside world and define rules for how requests should be routed to different services
  
