@@ -37,3 +37,4 @@
 - It has a permanent IP address. Lifecycle of Pod and Service Not connected means if a Pod dies, the service will remain same or unchange.
 - In Kubernetes, Ingress is an API object that manages external access to services within a cluster, typically HTTP and HTTPS. It acts as a smart routing system, allowing you to expose your Kubernetes services to the outside world and define rules for how requests should be routed to different services
  
+### What is K8S ?
